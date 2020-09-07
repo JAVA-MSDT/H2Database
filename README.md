@@ -7,3 +7,6 @@ How to use H2 embedded Database, Using Dao Design Pattern and Row mapper pattern
 
 - Using Row Mapper to get the results from the Resultset
 
+- رابط الحلقات بالغه العربيه على اليوتيوب
+https://youtu.be/1bJZ5MtgPq8
+

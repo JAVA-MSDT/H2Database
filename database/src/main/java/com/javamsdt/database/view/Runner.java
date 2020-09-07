@@ -60,5 +60,7 @@ public class Runner {
 		for (User user : users) {
 			System.out.println(user);
 		}
+
+		DatabaseConnection.closeConnection(connection);
 	}
 }

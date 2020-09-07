@@ -20,6 +20,7 @@ public class DatabaseConnection {
 	public static void closeStatement(final Statement statement) {
 		try {
 			statement.close();
+			System.out.println("Statment Slcosed Successfully");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -28,6 +29,7 @@ public class DatabaseConnection {
 	public static void closeResultset(final ResultSet resultSet) {
 		try {
 			resultSet.close();
+			System.out.println("Resultset Slcosed Successfully");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -36,6 +38,7 @@ public class DatabaseConnection {
 	public static void closeConnection(final Connection connection) {
 		try {
 			connection.close();
+			System.out.println("Connection Slcosed Successfully");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
